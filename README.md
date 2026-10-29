@@ -27,6 +27,12 @@ Horizon is Minecraft: Java Edition 26.3 rewritten in Rust: a native game that re
 
 > Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft. Horizon contains no Minecraft code, assets or data: you need your own legally obtained copy of Minecraft: Java Edition 26.3.
 
+<p align="center">
+  <a href="docs/media/sunset.webp"><img src="docs/media/sunset.webp" alt="A sunset over a savanna river valley and a plains village, captured in the Rust client with vanilla assets" width="100%"></a>
+</p>
+
+<p align="center"><sub>A savanna village at sunset, captured in the Rust client itself with vanilla assets, no mods and no shaders.</sub></p>
+
 ## Download
 
 Horizon is installed through **the Horizon launcher**. Get it from [playhorizon.dev](https://playhorizon.dev) (the Download button picks your system) or from [the launcher releases](https://github.com/horizon-rust/horizon/releases?q=launcher-v&expanded=true), for Linux x86-64, macOS on Apple Silicon or Windows x64. The launcher installs the game and keeps it up to date with each new build (Horizon ships on one channel, the Nightly), prepares its files from your copy of Minecraft (your own install, or downloaded from Mojang for your account), and updates itself.
@@ -35,8 +41,8 @@ Horizon is installed through **the Horizon launcher**. Get it from [playhorizon.
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/media/launcher-play.webp" alt="The launcher's Home page: the selected instance ready to play, Minecraft's prepared files, the version picker and Play"></td>
-    <td width="50%"><img src="docs/media/launcher-patch-notes.webp" alt="The launcher's Settings page: account, updates and appearance"></td>
+    <td width="50%"><a href="docs/media/launcher-play.webp"><img src="docs/media/launcher-play.webp" alt="The launcher's Home page: the selected instance ready to play, Minecraft's prepared files, the version picker and Play"></a></td>
+    <td width="50%"><a href="docs/media/launcher-patch-notes.webp"><img src="docs/media/launcher-patch-notes.webp" alt="The launcher's Settings page: account, updates and appearance"></a></td>
   </tr>
 </table>
 
@@ -50,19 +56,16 @@ The [documentation](https://playhorizon.dev/docs/) covers each of these.
 - **Playing with others:** invite friends from the pause menu's Friends button with a code, Open to LAN, and joining servers, online-mode ones with the Microsoft account the launcher signs in with. See [Multiplayer](https://playhorizon.dev/docs/multiplayer).
 - **Mods:** Horizon has its own mods, installed from the launcher. The official ones (Zoom, FPS Counter, Keystrokes and Minimap) are native Rust that the launcher builds into your game, with no Rust to install; older WebAssembly mods still run while they move. Java mod jars do not run in Horizon. See [Mods and data packs](https://playhorizon.dev/docs/mods).
 
-Screenshots, captured in the Rust client itself with vanilla assets and no mods or shaders:
+More of the game, captured the same way:
 
 <table>
   <tr>
-    <td colspan="2"><img src="docs/media/sunset.webp" alt="Sunset over a savanna river valley and a plains village"></td>
+    <td width="50%"><a href="docs/media/survival.webp"><img src="docs/media/survival.webp" alt="Survival at dusk: a zombie walks up, with the hotbar, health, hunger and experience"></a></td>
+    <td width="50%"><a href="docs/media/village.webp"><img src="docs/media/village.webp" alt="A plains village among savanna hills, with farms, villagers and an iron golem"></a></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/media/survival.webp" alt="Survival at dusk: a zombie walks up, with the hotbar, health, hunger and experience"></td>
-    <td width="50%"><img src="docs/media/settings.webp" alt="Vanilla's Video Settings screen with Horizon's own buttons at the top: Horizon Graphics and Advanced Graphics"></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="docs/media/village.webp" alt="A plains village among savanna hills, with farms, villagers and an iron golem"></td>
-    <td width="50%"><img src="docs/media/nether.webp" alt="A crimson forest in the Nether with a zombified piglin"></td>
+    <td width="50%"><a href="docs/media/nether.webp"><img src="docs/media/nether.webp" alt="A crimson forest in the Nether with a zombified piglin"></a></td>
+    <td width="50%"><a href="docs/media/settings.webp"><img src="docs/media/settings.webp" alt="Vanilla's Video Settings screen with Horizon's own buttons at the top: Horizon Graphics and Advanced Graphics"></a></td>
   </tr>
 </table>
 
