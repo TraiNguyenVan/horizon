@@ -42,7 +42,7 @@ Horizon is installed through **the Horizon launcher**. Get it from [playhorizon.
 <table>
   <tr>
     <td width="50%"><a href="docs/media/launcher-play.webp"><img src="docs/media/launcher-play.webp" alt="The launcher's Home page: the selected instance ready to play, Minecraft's prepared files, the version picker and Play"></a></td>
-    <td width="50%"><a href="docs/media/launcher-patch-notes.webp"><img src="docs/media/launcher-patch-notes.webp" alt="The launcher's Settings page: account, updates and appearance"></a></td>
+    <td width="50%"><a href="docs/media/launcher-settings.webp"><img src="docs/media/launcher-settings.webp" alt="The launcher's Settings page: account, updates and appearance"></a></td>
   </tr>
 </table>
 
@@ -65,9 +65,15 @@ More of the game, captured the same way:
   </tr>
   <tr>
     <td width="50%"><a href="docs/media/nether.webp"><img src="docs/media/nether.webp" alt="A crimson forest in the Nether with a zombified piglin"></a></td>
-    <td width="50%"><a href="docs/media/settings.webp"><img src="docs/media/settings.webp" alt="Vanilla's Video Settings screen with Horizon's own buttons at the top: Horizon Graphics and Advanced Graphics"></a></td>
+    <td width="50%"><a href="docs/media/underwater.webp"><img src="docs/media/underwater.webp" alt="A warm ocean reef: coral, sea grass and tropical fish in clear blue water"></a></td>
   </tr>
 </table>
+
+Those are all vanilla. Horizon's own distant terrain is not: **LOD Distance** keeps the near chunks at full detail and draws the rest of the world far past the render distance, here to 128 chunks on an integrated GPU (up to 1024 on a discrete one):
+
+<p align="center">
+  <a href="docs/media/distant-terrain.webp"><img src="docs/media/distant-terrain.webp" alt="A village and a river below, with hills and mountains drawn out to the horizon, far past the render distance" width="100%"></a>
+</p>
 
 ## Host a server
 
